@@ -24,3 +24,7 @@ implementation 'ca.six.oneadapter:oneadapter:1.0.1'
 
 # Builder Adapter
 [Demo](https://github.com/songzhw/OneAdapter/tree/master/app/src/main/java/ca/six/oneadapter/demo/builder)
+
+## difference between MultiAdapter and BuilderAdapter
+* The usage of MultiAdapter is more like RecyclerView. It still using render() to render each item.
+* The usage of BuilderAdapter is more like ScrollView. It can `add(item)` to to add one child to it.MultiAdapter
