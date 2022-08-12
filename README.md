@@ -17,3 +17,10 @@ implementation 'ca.six.oneadapter:oneadapter:1.0.1'
         }
         rvSimple.setAdapter(adapter)
 ```
+
+
+# Multiple ItemType Adapter
+[Demo](https://github.com/songzhw/OneAdapter/blob/master/app/src/main/java/ca/six/oneadapter/demo/MultiAdapterDemo.kt)
+
+# Builder Adapter
+[Demo](https://github.com/songzhw/OneAdapter/tree/master/app/src/main/java/ca/six/oneadapter/demo/builder)
