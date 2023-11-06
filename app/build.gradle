@@ -25,6 +25,7 @@ android {
 }
 
 dependencies {
+    implementation project(path: ':lib')
 
     // core-ktx 1.9.0与ANdroid 13 (API 33)更兼容;  版本再高如1.10.0就编译出错, 因为它需要kotlin 1.8版本
     implementation 'androidx.core:core-ktx:1.9.0'
