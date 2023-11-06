@@ -11,7 +11,7 @@ import ca.six.oneadapter.lib.diff_builder.MatchEachDiffResult
 
 data class InvestItem(var name: String, var money: String)
 
-class InvestItemBuildItem(val list: ArrayList<InvestItem>) : BuilderItem(list) {
+class InvestItemBuildItem(val list: ArrayList<InvestItem>) : BuilderItem {
     override fun getViewType(): Int = R.layout.item_expend_month
 
     override fun render(vh: RvViewHolder) {

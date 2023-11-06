@@ -16,6 +16,6 @@
     <TextView android:id="@+id/tvAmount"
         android:layout_width="wrap_content" android:layout_height="match_parent"
         android:gravity="center_vertical" android:layout_marginRight="10dp"
-        tools:text="$30.00" android:textSize="30dp" android:textColor="@color/cash"
+        tools:text="$30.00" android:textSize="30dp" android:textColor="#f00"
         />
 </LinearLayout>

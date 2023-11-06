@@ -5,7 +5,7 @@ import ca.six.oneadapter.demo.R
 import ca.six.oneadapter.lib.RvViewHolder
 import ca.six.oneadapter.lib.builder.BuilderItem
 
-class TitleItem(val title: String) : BuilderItem(title) {
+class TitleItem(val title: String) : BuilderItem {
     override fun getViewType() = R.layout.item_rv_one
 
     override fun render(holder: RvViewHolder) {
@@ -17,7 +17,7 @@ class TitleItem(val title: String) : BuilderItem(title) {
 
 data class Description(val desp: String, val imageResId: Int)
 
-class DescriptionItem(val despcription: Description) : BuilderItem(despcription) {
+class DescriptionItem(val despcription: Description) : BuilderItem {
     override fun getViewType() = R.layout.item_desp
 
     override fun render(holder: RvViewHolder) {

@@ -7,7 +7,7 @@ import ca.six.oneadapter.lib.diff_builder.MatchEachDiffResult
 
 data class InvestDay(var name: String)
 
-class InvestDayBuilderItem(var obj: InvestDay) : BuilderItem(obj) {
+class InvestDayBuilderItem(var obj: InvestDay) : BuilderItem {
     override fun getViewType(): Int = R.layout.item_builder_title
 
     override fun render(vh: RvViewHolder) {
